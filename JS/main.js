@@ -1,1 +1,1 @@
-console.log('Hello World');
+alert('Now entering Main Page!');
