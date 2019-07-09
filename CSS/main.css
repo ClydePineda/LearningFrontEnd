@@ -1,9 +1,21 @@
+*{
+    padding:0px;
+    margin:0px;
+    
+}
 header{
     text-align: justify;
-    font-style: italic;
-    color: rgb(221, 138, 12);  
+    font-style:oblique ;
+      
 }
 h1{
     font-family: 'Times New Roman';
     font-size: 10vh;
+}
+
+ul {
+    list-style-type: none;
+}
+li {
+    justify-content: stretch;
 }
