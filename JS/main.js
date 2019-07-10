@@ -1,1 +1,1 @@
-alert('Now entering Main Page!');
+//alert('Now entering Main Page!');

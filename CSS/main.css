@@ -1,21 +1,45 @@
 *{
     padding:0px;
     margin:0px;
-    
-}
-header{
-    text-align: justify;
-    font-style:oblique ;
-      
-}
-h1{
-    font-family: 'Times New Roman';
-    font-size: 10vh;
+    box-sizing: border-box;
 }
 
-ul {
+nav{
+   display: flex;
+   justify-content: space-around;
+   min-height: 10vh;
+   align-items: center;
+   font-family: Courier;
+   background-color: rgba(224, 110, 2, 0.897);
+   background-image: linear-gradient(rgba(245, 140, 3, 0.925), rgba(251, 255, 0, 0.911))
+}
+.defaultText{
+    text-transform: capitalize;
+    letter-spacing: 2.5px;
+    font-size: 20px;
+    color: rgba(5, 68, 202, 0.623);
+}
+.navLinks{
+ 
+    justify-content: space-around;
+    display:fleX;
+    width: 50%;
+    text-decoration: none;
+}
+.navLinks a{
+    color: rgba(5, 68, 202, 0.623);
+    font-size: 22.5px;
+    text-decoration: none;
+}
+.navLinks li{
     list-style-type: none;
 }
-li {
-    justify-content: stretch;
+.mVer{
+    display: none;
+}
+.mVer div{
+    width: 20px;
+    height: 5px;
+    margin: 2px;
+    background-color: rgb(233, 233, 233);
 }
