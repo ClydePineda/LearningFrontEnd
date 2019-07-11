@@ -3,7 +3,9 @@
     margin:0px;
     box-sizing: border-box;
 }
-
+body {
+    background-color: rgb(226, 226, 226);
+}
 nav{
    display: flex;
    justify-content: space-around;
