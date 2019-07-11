@@ -7,17 +7,16 @@
 nav{
    display: flex;
    justify-content: space-around;
-   min-height: 10vh;
+   min-height: 12vh;
    align-items: center;
    font-family: Courier;
-   background-color: rgba(224, 110, 2, 0.897);
-   background-image: linear-gradient(rgba(245, 140, 3, 0.925), rgba(251, 255, 0, 0.911))
+   background-color: rgb(77, 3, 61);
 }
 .defaultText{
     text-transform: capitalize;
     letter-spacing: 2.5px;
     font-size: 20px;
-    color: rgba(5, 68, 202, 0.623);
+    color: rgb(231, 239, 250);
 }
 .navLinks{
  
@@ -27,7 +26,7 @@ nav{
     text-decoration: none;
 }
 .navLinks a{
-    color: rgba(5, 68, 202, 0.623);
+    color: rgb(231, 239, 250);
     font-size: 22.5px;
     text-decoration: none;
 }
@@ -38,8 +37,37 @@ nav{
     display: none;
 }
 .mVer div{
-    width: 20px;
+    width: 25px;
     height: 5px;
-    margin: 2px;
-    background-color: rgb(233, 233, 233);
+    margin: 8%;
+    background-color:rgb(231, 239, 250); 
+    border-radius:2px;
+}
+@media screen and (max-width: 1200px){
+    .navLinks{
+        width:60%;
+    }
+}
+@media screen and (max-width: 950px){
+    body {
+        overflow-x:hidden;
+    }
+    .navLinks{
+        position:absolute;
+        right:0px;
+        height: 92vh;
+        top:8vh;
+        background-color:rgb(77, 3, 61);
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        width:50%;
+        transform: translateX(100%);
+    }
+    .navLinks li{
+        opacity:0;
+    }
+    .mVer{
+        display: block;
+    }
 }
