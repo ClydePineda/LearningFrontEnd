@@ -35,6 +35,11 @@ nav{
 .navLinks li{
     list-style-type: none;
 }
+.miniLinks{
+    display: none;
+    color: rgb(231, 239, 250);
+}
+
 .mVer{
     display: none;
 }
@@ -44,6 +49,9 @@ nav{
     margin: 8%;
     background-color:rgb(231, 239, 250); 
     border-radius:2px;
+}
+.navLinks a:hover {
+    color: rgb(167, 0, 0);
 }
 @media screen and (max-width: 1200px){
     .navLinks{
